@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;0,600;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    background-color: #96fdfd;
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;
+}
+.logo{
+    width: 80px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+ 
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    grid-gap: 20px;
+    
+}
+.menu__item a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu__item.active a{
+    text-decoration: underline;
+}
+.ImagenPrincipal{
+    background-image: url("../img/img5.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+
+.ImagenPrincipal h2{
+    color: #ffffff;
+    background-color: #00000081;
+    padding-inline: 15px;
+}
+.ImagenPrincipal p{
+    color: #ffffff;
+    text-align: center;
+
+}
+.tarjetitas{
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+    
+}
+.tarjetita{
+    background-color: #a7fce0;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 00px;
+    flex: 1;
+
+}
+.informacion{
+    padding-inline: 20px;
+    padding-bottom: 20px;
+    padding: 0 20px 20px 20px;
+}
+
+.tarjetita__imagen{
+    max-width: 100%;
+}
+
+.pie{
+    background-color:#96fdfd;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+}
+.tarjetitados{
+    flex:1.5 ;
+}
